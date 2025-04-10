@@ -1,0 +1,38 @@
+.formulario {
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px;
+    gap: 10%;
+}
+
+.formulario{
+    background-color: rgb(42, 161, 165);
+}
+
+p {
+{ } 
+  .formulario {
+    width: 100px;
+    height: 4000px;
+    margin: 40px;
+    padding: 100px;
+    border: 30px ridge rgba(49, 15, 15, 0.733);
+  }
+  .formulario {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 20%;
+    background-color: rgb(37, 130, 158);
+    text-align: right;
+  }
+  
+  .formulario {
+    color: rgb(68, 99, 107);
+  }
+  
+  .formulario {
+    color: rgb(10, 10, 10);
+  }
+  
+
+}
+  

@@ -1,0 +1,26 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 100%;
+    background-color: rgb(199, 76, 168);
+}
+
+@media (max-width: 600px) {
+
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .item{
+        width: 100%;
+        background-color: rgb(77, 16, 175);
+    }
+
+}
+.contenedor2{
+    display: inline;
+    justify-content: space-around;
+}

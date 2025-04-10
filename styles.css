@@ -1,0 +1,58 @@
+p {
+  color: rgb(204, 19, 189);
+}
+.container {
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  padding: 40px;
+  border: 10px solid rgba(38, 207, 5, 0.733);
+}
+#titulo {
+  margin-left: 50%;
+  margin-right: 300%;
+  width: 40%;
+  background-color: rgb(196, 13, 120);
+  text-align: center;
+}
+
+.clase {
+  color: blueviolet;
+}
+
+#titulo1 {
+  color: green;
+}
+a:hover {
+  background-color: rgb(4, 109, 170);
+}
+
+button {
+  transition: background-color 0.3s;
+  animation: mover 2s infinite linear;
+}
+button:hover {
+  background-color: rgb(12, 236, 4);
+  animation: girar 2s infinite linear;
+}
+
+@keyframes mover {
+  0% {
+    transform: translatex(0);
+  }
+  100% {
+    transform: translatex(100px);
+  }
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
