@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0%;
+  padding: 0%;
+}
+
+header{
+    background: brown;
+    color: rgb(233, 185, 126);
+    padding: 20%px 0;
+    text-align: center;
+}
+
+nav u{
+    list-style: none;
+    padding: 0%;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: blueviolet;
+    text-decoration: aqua;
+}
+
+#about{
+    padding: 20px;
+    background: lightcoral;
+}
+#about h2{
+    margin-top: 0;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project{
+    width: 300px;
+    padding: 10px;
+    background: blueviolet;
+    border: 1px solid royalblue;
+    text-align: center;
+}
+
+.proyect img{
+    max-width: 100px;
+    height: auto;
+}
+
+#contact{
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin-bottom: 5px;
+}
+form input, form textarea{
+    margin-bottom: 1opx;
+    padding: 10px;
+    font-size: 16px;
+}
+form input[type="submit"] {
+    background: rebeccapurple;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+}

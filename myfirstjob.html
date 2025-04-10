@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="myfirstjob.css">
-</head>
-<body>
+    <link rel="stylesheet" href="myfirtsjob.css" />
+  </head>
+  <body>
     <!--contenido aqui-->
     <header>
-         <h1>mi portafolio</h1>
-            <nav>
-               <ul>
-                <li><a href="#about">sobre mi</a></li>
-                <li><a href="#portfolio">portafolio</a></li>
-                <li><a href="#contact">contacto</a></li>
-               </ul>
-           </nav>
+      <h1>mi portafolio</h1>
+        <nav>
+            <ul>
+              <li><a href="#about">sobre mi</a></li>
+              <li><a href="#portfolio">portafolio</a></li>
+              <li><a href="#contact">contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="gallery">
+            <div class="project">
+              <img src="naturaleza 1.jpg" alt="proyecto1" />
+              <p>https://images.app.goo.gl/YRaRB4FewhnpcpU57</p>
+            </div>
+        </div>
+
     </header>
 
     <section id="about">
-        <h2> sobre mi</h2>
-        <p>hola, soy Erika, un desarrollador web apasionado por crear soluciones innovadoras</p>
+      <h2>sobre mi</h2>
+      <p>
+        hola, soy Erika, un desarrollador web apasionado por crear soluciones
+        innovadoras
+      </p>
     </section>
 
     <section id="portfolio">
-        <h2>portafolio</h2>
-        <div class="gallery">
-            <div class="project">
-              <img src="proyecto1" alt="proyecto1">
-              <p>https://images.app.goo.gl/YRaRB4FewhnpcpU57</p>
-            </div>
-            <div class="project">
-              <img src="proyecto2.jpg" alt="proyecto 2">
-              <p>descripcion del proyecto 2</p>
-            </div>
-         <!--mas proyectos aqui-->
+      <h2>portafolio</h2>
+      <div class="gallery">
+        <div class="project">
+          <img src="naturaleza 1.jpg" alt="proyecto1" />
+          <p>https://images.app.goo.gl/YRaRB4FewhnpcpU57</p>
         </div>
+        <div class="project">
+          <img src="proyecto2.jpg" alt="proyecto 2" />
+          <p>descripcion del proyecto 2</p>
+        </div>
+        <video src="Download.mp4" autoplay controls></video>
+
+        <!--mas proyectos aqui-->
+      </div>
     </section>
 
     <section id="contact">
-     <h2>contacto</h2>
-        <form action="/submit"   method="post">
-         <label for="name">nombre:</label> 
-         <input type="text" id="name" name="name" required><br>
-         <label for="email">correo electronico:</label> 
-         <input type="email" id="email" name="email" required><br>
-         <label for="message">mensaje</label>
-         <textarea name="message" id="message" required></textarea><br>
-         <input type="submit" value="enviar">
-        </form>
+      <h2>contacto</h2>
+      <form action="/submit" method="post">
+        <label for="name">nombre:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">correo electronico:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">mensaje</label>
+        <textarea name="message" id="message" required></textarea><br />
+        <input type="submit" value="enviar" />
+      </form>
     </section>
-</body>
+  </body>
 </html>
